@@ -20,7 +20,7 @@ body {
   .logo {
     font-family: 'Nanum Pen Script', cursive;
     font-size: 72px;
-    color: black;
+    color:black;
     text-align: center;
     letter-spacing: -3;
     margin: 0;
@@ -47,7 +47,7 @@ body {
   }
   
   header nav ul li a {
-    color: black;
+    color:black;
     text-decoration: none;
     padding: 0 20px 0 0;
     font-family: 'Montserrat Alternates', sans-serif;
@@ -74,7 +74,7 @@ body {
     }
   }
   
-  /* ---  Primary Groups --- */
+  /* ---  Primary --- */
   
   main {
     padding: 20px 0;
@@ -86,29 +86,29 @@ body {
 
   
   section.about-me {   
-    background-color: lightblue;
+    background-color: black;
     padding-top: 50px;
     padding-bottom: 50px;
     margin: 20px 0;
-    color: black;
+    color:white;
     display: flex;
     flex-direction: column;
   }
   
   
   footer {
-    background-color:lightblue;
+    background-color: black;
     margin-top: 40px;
     margin-bottom: 0;
   }
   
-  /* ---  Typography --- */
+  /* ---  fonts --- */
   
   h1 {
     font-size: 28px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
-    color: orange;
+    color:white;
     text-align: center;
   }
   
@@ -196,7 +196,7 @@ body {
   
   
   
-  /* ---  (Desktop) Groups & Items --- */
+  /* ---  Desktop--- */
   
   @media all and (min-width: 800px) {
     section {
@@ -211,7 +211,8 @@ body {
   }
   
   
-  /* Contact Form Design */
+  
+  /* Contact Form */
   
   form {
     padding-right: 8px;
