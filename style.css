@@ -74,7 +74,7 @@ body {
     }
   }
   
-  /* ---  Primary Groups --- */
+  /* ---  Primary --- */
   
   main {
     padding: 20px 0;
@@ -102,7 +102,7 @@ body {
     margin-bottom: 0;
   }
   
-  /* ---  Typography --- */
+  /* ---  fonts --- */
   
   h1 {
     font-size: 28px;
@@ -186,7 +186,7 @@ body {
   
   
   
-  /* ---  (Desktop) Groups & Items --- */
+  /* ---  Desktop--- */
   
   @media all and (min-width: 800px) {
     section {
@@ -201,11 +201,10 @@ body {
   
   
   
-  /* Contact Form Design */
+  /* Contact Form */
   
   form {
     padding-right: 8px;
-    /* Fixed small sizing issue on the right */
   }
   
   form label {
