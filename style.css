@@ -81,7 +81,7 @@ body {
   }
   
   section {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   
@@ -89,7 +89,7 @@ body {
     background-color: lightblue;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin: 80px 0;
+    margin: 20px 0;
     color: black;
     display: flex;
     flex-direction: column;
@@ -108,7 +108,7 @@ body {
     font-size: 28px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
-    color: lightblue;
+    color: orange;
     text-align: center;
   }
   
@@ -139,10 +139,10 @@ body {
       text-decoration: none;	
   }
   
-  main  a:link { color: green; }
-  main  a:visited { color: green; }
-  main  a:hover { color: green; }
-  a:active { color: red; }
+  main  a:link { color: orange; }
+  main  a:visited { color: orange; }
+  main  a:hover { color: orange; }
+  a:active { color: white; }
   
   
   a:hover {
@@ -165,6 +165,7 @@ body {
   .group {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .item {
@@ -183,6 +184,15 @@ body {
     display: flex;
     flex-direction: row;
  }
+ .stack {
+   display: flex;
+   flex-direction:inherit;
+   justify-content: center;
+ }
+ .portFont {
+   display: flex;
+   justify-content: flex-start;
+ }
   
   
   
@@ -190,22 +200,21 @@ body {
   
   @media all and (min-width: 800px) {
     section {
-      padding: 0 10%;
+      padding: 20 10%;
     }
     .group {
       display: flex;
       flex-direction: row;
+      justify-content: center;
       
     }
   }
-  
   
   
   /* Contact Form Design */
   
   form {
     padding-right: 8px;
-    /* Fixed small sizing issue on the right */
   }
   
   form label {
@@ -214,14 +223,15 @@ body {
   
   form input, 
   form textarea {
-    width: 100%;
+    width: 175px;
     margin-bottom: 20px;
   }
   
   form textarea {
-    height: 200px;
-    width: 500px;
+    height: 150px;
+    width: 200px;
   }
+
   
   
   
