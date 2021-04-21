@@ -144,7 +144,7 @@
         <div class="group">
             <div class="item">
                 <div class="contacts">
-            <form action="contact-form.js" method="POST">
+     <!--    <form action="contact-form.js" method="POST">
       <label for="user-name">Name:</label>
       <input id="user-name" type="text" name="name" required>
 
@@ -154,8 +154,30 @@
       <label for="user-message">Message:</label>
       <textarea id="user-message" name="message"></textarea>
       <button type="submit">Submit</button>
-    </form>
+    </form> -->
     
+    <form
+  action="https://formspree.io/f/xyylznvd"
+  method="POST" target="_blank"
+>
+  <label for="user-name">Name:
+  <input id="user-name" type="text" name="name" required>
+  </label>
+  <label>
+    Email:
+    <input type="email" name="_replyto" required>
+  </label>
+  <label>Your message:</label>
+    <textarea name="message"></textarea>
+  
+  
+
+  <!-- your other form fields go here -->
+
+  <button type="submit" target="_blank">Submit</button>
+</form>
+
+
             
             <div class="item item-double">
                 <p>Phone #: <a href="tel:904-580-0171" target="_blank">904-580-0171</a></p>
